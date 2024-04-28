@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rastreo de Encuesta sobre Calcetines</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="ingreso">
+          <h2>Ingreso de Encuestas sobre Calcetines</h2>
+          <form id="encuestaForm">
+            <label for="material">Material preferido de los calcetines:</label>
+            <input type="text" id="material" name="material">
+            
+            <label for="color">Color favorito de los calcetines:</label>
+            <input type="text" id="color" name="color">
+            
+            <label for="longitud">Longitud preferida de los calcetines:</label>
+            <input type="text" id="longitud" name="longitud">
+            
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+        <section class="visualizacion">
+          <h2>Encuestas Respondidas sobre Calcetines</h2>
+          <div id="encuestasGrid"></div>
+        </section>
+      </div>
+      
+      <script src="script.js"></script>
+</body>
+</html>
